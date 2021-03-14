@@ -1,11 +1,9 @@
 package br.com.celfons.crud.interfaces
 
 import br.com.celfons.crud.config.authorization
+import br.com.celfons.crud.domain.UserRequest
 import br.com.celfons.crud.domain.UserResponse
 import br.com.celfons.crud.service.UserService
-import br.com.celfons.crud.domain.UserRequest
-import io.swagger.annotations.ApiOperation
-import io.swagger.annotations.Authorization
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 
