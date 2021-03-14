@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  kuadra:
+    image: 'celfons/crud:latest'
+    hostname: crud
+    domainname: crud
+    ports:
+      - "8080:8080"
